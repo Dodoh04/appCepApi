@@ -35,6 +35,115 @@
 
     </LinearLayout>
 
+
+    <TextView
+        android:id="@+id/lblTextCEP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="CEP:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblCEP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblTextLogradoura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Logradoura:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/lblLogradouro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblTextCompl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Complemtento:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/lblComplemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblTextBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Bairro:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/lblBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/lblTexCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Cidade:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/lblCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblTextEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Estado:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/lblEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -75,54 +184,14 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/lblCEP"
-        android:layout_width="match_parent"
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:textColor="#000000"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/lblLogradouro"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:textColor="#000000"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/lblComplemento"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:textColor="#000000"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/lblBairro"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:textColor="#000000"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/lblCidade"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:textColor="#000000"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/lblEstado"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:textColor="#000000"
-        android:textSize="20sp" />
-
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:contentDescription="alguma coisa"
+        android:src="@drawable/baseline_add"/>
 
 
 </LinearLayout>
