@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         txtCep = findViewById(R.id.txtCep);
-        lblCEP = findViewById(R.id.lblCEP);
-        lblLogradouro = findViewById(R.id.lblLogradouro);
-        lblComplemento = findViewById(R.id.lblComplemento);
-        lblBairro = findViewById(R.id.lblBairro);
-        lblCidade = findViewById(R.id.lblCidade);
-        lblEstado = findViewById(R.id.lblEstado);
+        lblCEP = findViewById(R.id.btnBuscaCep);
+        lblLogradouro = findViewById(R.id.etxLogra);
+        lblComplemento = findViewById(R.id.etxComp);
+        lblBairro = findViewById(R.id.etxBairro);
+        lblCidade = findViewById(R.id.etxCidade);
+        lblEstado = findViewById(R.id.etxEstado);
         btnBuscarCep = findViewById(R.id.btnBuscaCep);
 
         btnBuscarCep.setOnClickListener(new View.OnClickListener() {
